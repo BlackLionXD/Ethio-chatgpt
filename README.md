@@ -9,3 +9,4 @@ It is an AI powered chatbot project that helps you have intelligent conversation
 -  run the project: python main.py
 
   # Screenshot
+![Screenshot](image/screenshot.png)
