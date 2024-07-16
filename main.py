@@ -30,4 +30,7 @@ tokenizer.pretrained_vocab_files_map
 outputs = model.generate(**inputs)
 print(outputs)
 
+#  Decode output
 
+response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+print(response)
